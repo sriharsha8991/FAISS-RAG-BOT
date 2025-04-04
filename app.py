@@ -18,7 +18,7 @@ from typing import Generator
 
 # --- Configuration ---
 load_dotenv() # Load environment variables from .env file
-GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")
+# GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")
 
 if not GOOGLE_API_KEY:
     st.error("Google API Key not found. Please set it in the .env file or Streamlit secrets.")
